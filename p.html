@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    /* General styles */
+    body {
+      background-color: black;
+      color: white;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .all {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+    .all h1 {
+      font-style: italic;
+      margin: 0;
+      padding: 0;
+    }
+    .bar a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 18px;
+      font-weight: bold;
+      font-style: italic;
+      transition: color 0.3s ease;
+    }
+    .bar a:hover {
+      color: lightgray;
+    }
+    .link {
+      margin-left: auto;
+    }
+    .nxt {
+      position: relative;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .nxt img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .nxt h1 {
+      font-size: 4em;
+      font-style: italic;
+      margin: 20px 0;
+    }
+    .con {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .con h2 {
+      font-size: 2em;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+    .con p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+
+    /* Media queries for responsiveness */
+    @media only screen and (max-width: 768px) {
+      .all {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .bar {
+        margin-top: 20px;
+        text-align: center;
+      }
+      .bar a {
+        display: block;
+        padding: 10px 0;
+      }
+      .link {
+        margin: 0;
+      }
+      .nxt h1 {
+        font-size: 3em;
+      }
+      .con p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="all">
+    <h1>Logo Name</h1>
+    <nav class="bar">
+      <div class="link">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolios.html">Portfolio</a>
+        <a href="page.html">Page</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="nxt">
+    <img src="images (2).jfif" alt="Banner Image">
+    <h1>My Personal Portfolio</h1>
+  </div>
+
+  <div class="con">
+    <h2>About Yourself</h2>
+    <p>
+      Insert your biography or description here. Use this space to introduce yourself, highlight your skills and experience, and describe what makes your portfolio unique.
+    </p>
+  </div>
+</body>
+</html>
